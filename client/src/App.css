@@ -1,107 +1,86 @@
 .App {
   text-align: center;
-}
-.App-header {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
-  background-color: white;
-
-  /* align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(17, 12, 12); */
+  margin: 0;
 }
 
-/* .logocont {
-} */
-.title {
-  font-size: 1rem;
-}
-.hqpic {
-  max-width: 100vw;
-}
-.banner {
-  max-width: 100vw;
-  box-shadow: 0 0.25rem 0.3rem 0 gray;
-}
 .services {
   font-size: 0.8rem;
+  text-align: left;
+  padding-left: 1.5rem;
 }
 .details {
   font-size: 0.6rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1rem;
-  /* 
-  text-align: left; */
+  padding: 0 1.5rem 1rem 1.5rem;
+  text-align: left;
 }
 
-.list {
-  list-style-type: none;
-  background-image: url("./images/kpshq2.jpeg");
-  background-repeat: no-repeat;
-  background-size: 270%;
-  background-position: 30% 10%;
-  padding: 0.7rem;
-  color: white;
-  text-align: left;
-  font-size: 0.6rem;
-  font-weight: bold;
-  margin: 0;
-}
-a,
-a:visited {
-  text-decoration: none;
-  color: white;
-}
 .prvideo {
-  max-width: 7rem;
-  margin-left: 2rem;
+  max-width: 17rem;
+  padding-bottom: 1rem;
 }
 .intropic {
-  max-width: 7rem;
+  max-width: 17rem;
   text-align: left;
-  margin-right: 2rem;
 }
 .videocont {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
   padding-bottom: 1rem;
 }
 .ceo {
   font-size: 0.8rem;
+  text-align: left;
+  padding-left: 1.5rem;
 }
 .ceomessage {
   font-size: 0.6rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1rem;
+  text-align: left;
+  padding: 0 1.5rem 1rem 1.5rem;
+}
+.slider-main {
+  position: center;
 }
 .fiveicon {
   max-width: 85vw;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1rem;
 }
 footer {
   position: sticky;
   z-index: 1;
   bottom: 0;
   background-color: white;
-  box-shadow: 0.2rem 0 0 0.1rem gray;
+  text-align: center;
+}
+.sixpic {
+  width: 80%;
+  padding-bottom: 1rem;
 }
 .App-logo {
   height: 1.5rem;
-  /* transform: rotate(-90deg);
-  text-align: left;
-  left: -10%;
-  top: 45%; */
   padding-top: 0.2rem;
-
-  /* max-width: 6rem; */
 }
 .address {
   font-size: 0.5rem;
   margin: 0;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+@media only screen and (min-width: 40rem) {
+  /* .App-header {
+    background-color: white;
+    background-image: url("./images/kpshq2.jpeg");
+    background-repeat: no-repeat;
+    background-position: 30% 10%;
+    background-size: 100%;
+    height: 30rem;
+  } */
+  .list {
+    background-image: none;
+    /* background-position: 30% 10%; */
+    padding: 0.7rem;
+    color: white;
+    text-align: left;
+    font-size: 0.6rem;
+    font-weight: bold;
+    margin: 0;
+  }
 }

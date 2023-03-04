@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style-type: none;
+
+  color: white;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: bold;
+  /* position: absolute; */
+  margin: 0;
+  background-color: rgb(104, 102, 102);
+  width: 100%;
+  padding: 0;
+  box-shadow: 0 0.25rem 0.3rem 0 gray;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
