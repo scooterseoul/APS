@@ -1,34 +1,47 @@
-.list {
+.services-list {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr;
   list-style-type: none;
-
-  color: white;
+  color: rgb(72, 71, 71);
   text-align: center;
   font-size: 0.6rem;
   font-weight: bold;
-  /* position: absolute; */
   margin: 0;
-  background-color: rgb(104, 102, 102);
-  width: 100%;
   padding: 0;
-  box-shadow: 0 0.25rem 0.3rem 0 gray;
+  padding-bottom: 1rem;
 }
-
+/* .power {
+  width: 3rem;
+}
+.transmission {
+  width: 3rem;
+}
+.overseas {
+  width: 3rem;
+}
+.training {
+  width: 3rem;
+}
+.engineering {
+  width: 3rem;
+} */
+.services-list img {
+  width: 3rem;
+}
 a,
 a:visited {
   text-decoration: none;
   color: white;
 }
 @media only screen and (min-width: 34rem) {
-  .list {
+  .services-list {
     background-color: white;
     color: gray;
     font-size: 0.9rem;
     box-shadow: none;
     text-align: center;
     /* padding-top: 0.2rem; */
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
