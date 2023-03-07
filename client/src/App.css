@@ -103,6 +103,7 @@ footer {
     text-align: left;
     padding-bottom: 0.2rem;
     padding-left: 0.3rem;
+    font-style: italic;
     margin: 0;
   }
   .prvideo {
@@ -120,6 +121,7 @@ footer {
   .intro1 {
     text-align: left;
     padding-bottom: 0.2rem;
+    font-style: italic;
     margin: 0;
   }
   .intropic {
