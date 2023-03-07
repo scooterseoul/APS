@@ -1,9 +1,7 @@
 # KPS Concept
 
 <div>
-
 <img width=50% alt="Responsive example" src="https://user-images.githubusercontent.com/99179952/223298390-1cf090ba-fdf8-4c1e-a9fe-216fcc1a5ddb.png">
-
 </div>
 
 
