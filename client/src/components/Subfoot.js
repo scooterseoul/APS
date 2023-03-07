@@ -7,6 +7,7 @@ const Subfoot = () => {
       <div className="dow">
         <img src={Dow} alt="dow"></img>
       </div>
+
       <div className="globalcompact">
         <img src={Globalcompact} alt="globalcompact"></img>
       </div>
