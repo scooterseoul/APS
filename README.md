@@ -8,7 +8,7 @@
 ## About The Project
 Concept for Power Plant Maintence
 
-### Demo: https://lucent-fairy-2ec992.netlify.app/
+### Demo: https://timely-licorice-172925.netlify.app/
 <div>
 
 <img width=15% alt="phone1" src="https://user-images.githubusercontent.com/99179952/223298864-85fd4473-7e32-41b0-83f2-f000d807339c.png">
