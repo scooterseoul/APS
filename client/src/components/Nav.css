@@ -2,12 +2,10 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   list-style-type: none;
-
   color: white;
   text-align: center;
   font-size: 0.6rem;
   font-weight: bold;
-  /* position: absolute; */
   margin: 0;
   background-color: rgb(104, 102, 102);
   width: 100%;
@@ -27,8 +25,6 @@ a:visited {
     font-size: 0.9rem;
     box-shadow: none;
     text-align: center;
-    /* padding-top: 0.2rem; */
-    padding-left: 1rem;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;

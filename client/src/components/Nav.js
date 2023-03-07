@@ -2,10 +2,6 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <div>
-      {/* <div className="slidy">
-            <img src={hq} />
-          </div> */}
-
       <ul className="list">
         <li>
           <p href="url">About KPS</p>

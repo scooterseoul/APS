@@ -7,10 +7,6 @@ import Transmission from "../images/icon-trans.png";
 const Services = () => {
   return (
     <div>
-      {/* <div className="slidy">
-            <img src={hq} />
-          </div> */}
-
       <ul className="services-list">
         <li>
           <p href="url">Hydro, Thermal & Nuclear Services</p>

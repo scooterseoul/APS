@@ -9,13 +9,13 @@ const Header = () => {
     <header className="App-header">
       <div className="head-con"></div>
       <div className="h-text">
-        <img src={Hlog} className="hlog"></img>
+        <img src={Hlog} alt="logo" className="hlog"></img>
       </div>
       <div className="bigbanner-cont">
-        <img src={Bigbanner} className="bigbanner"></img>
+        <img src={Bigbanner} alt="bigbanner" className="bigbanner"></img>
       </div>
       <div>
-        <img src={banner} className="banner" />
+        <img src={banner} alt="banner" className="banner" />
       </div>
       <div className="navi-cont">
         <Nav />
@@ -23,7 +23,7 @@ const Header = () => {
       {/* <--- desk --->  */}
 
       <div className="cont-bgimg">
-        <img src={bgimg} className="bgimg" />
+        <img src={bgimg} alt="bgimg" className="bgimg" />
       </div>
     </header>
   );

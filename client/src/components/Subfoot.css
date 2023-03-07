@@ -1,14 +1,32 @@
 .subfoot-list {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
   padding: 0;
+  width: 100%;
 }
-.dow {
-  width: 80vw;
+.dow img {
+  width: 40vw;
   padding-top: 2rem;
-}
-.globalcompact {
-  width: 5rem;
   padding-bottom: 1rem;
+}
+.globalcompact img {
+  width: 15vw;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+@media only screen and (min-width: 34rem) {
+  .subfoot-list {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .dow img {
+    width: 15vw;
+  }
+  .globalcompact img {
+    width: 6vw;
+    text-align: left;
+  }
 }
